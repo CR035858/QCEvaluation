@@ -6,11 +6,11 @@ import java.sql.DriverManager;
 public class Test {
 	public static void main(String[] args) {
 
-		String jdbc = "jdbc:mysql://localhost:3306/testdb";
-	//	String jdbc = "jdbc:mysql://localhost:3306/ebook";
+		
+		String jdbc = "jdbc:mysql://localhost:3306/ebook";
 		String user = "root";
-	//	String pass = "rehan@1996";
-		String pass = "MySQL_@123456";
+		String pass = "rehan@1996";
+		
 
 		try {
 			System.out.println("jdbc url:" + jdbc);
